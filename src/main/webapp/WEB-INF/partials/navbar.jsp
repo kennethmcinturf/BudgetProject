@@ -9,8 +9,8 @@
             <c:choose>
 
                 <c:when test="${user != null}">
-                    <li><a href="/budgets/create">Create Glads</a></li>
-                    <li><a href="/budgets">Search Glads</a></li>
+                    <li><a href="/budgets/create">Create Budget</a></li>
+                    <li><a href="/budgets">Your Budgets</a></li>
                     <li><a href="/profile">User Profile</a></li>
                     <li><a href="/logout">Logout</a></li>
                 </c:when>
